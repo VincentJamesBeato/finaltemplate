@@ -1,0 +1,6 @@
+npm install @splidejs/react-splide
+npm install aos --save
+npm install react-axios
+npx json-server --watch data/db.json --port 8000
+npm i react-router-dom
+npm install bootstrap
