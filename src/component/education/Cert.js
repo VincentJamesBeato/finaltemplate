@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const Cert = () => {
 
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center" data-aos="flip-up" data-aos-anchor-placement="bottom-center">
         <div id="carouselExampleIndicators" class="carousel slide w-50" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -17,22 +17,22 @@ const Cert = () => {
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={process.env.PUBLIC_URL + '/11.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/11.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
-                    <img src={process.env.PUBLIC_URL + '/22.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/22.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
-                    <img src={process.env.PUBLIC_URL + '/33.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/33.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
-                    <img src={process.env.PUBLIC_URL + '/44.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/44.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
-                    <img src={process.env.PUBLIC_URL + '/55.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/55.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
-                    <img src={process.env.PUBLIC_URL + '/66.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />
+                    <img src={process.env.PUBLIC_URL + '/66.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="400" />
                 </div>
                 <div class="carousel-item">
                     <img src={process.env.PUBLIC_URL + '/77.jpg'} class="d-block w-100 image-fluid rounded" alt="..." height="370" />

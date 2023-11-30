@@ -15,7 +15,8 @@ const Primary = () => {
     return ( 
         <div className="row">
             <div className="col-6">
-                <ol>
+                <ol data-aos="fade-up"
+                data-aos-anchor-placement="bottom-center">
                     <li className="fs-2">Kinder Garden</li>
                         <ul>
                             <li className="fs-4">Kinder Minds</li>
@@ -35,8 +36,8 @@ const Primary = () => {
             </div>
 
             <div className="col-6 d-flex justify-content-center">
-                {/* <img data-aos="flip-right" src={process.env.PUBLIC_URL + '/4.jpg'} alt="My Image" width="370px" height="370px" className="rounded-5 border border-3 border-light"/> */}
-                <Splide options={{ 
+                <img data-aos="flip-up" src={process.env.PUBLIC_URL + '/4.jpg'} alt="My Image" width="370px" height="370px" className="rounded-5 border border-3 border-light"/>
+                {/* <Splide options={{ 
       width       : 370, // Set the width of the main slider based on the image width
       height      : 370,
       isNavigation: false, // Disable navigation in the main slider
@@ -50,7 +51,7 @@ const Primary = () => {
                     <SplideSlide className="d-flex justify-content-center">
                         <img src={process.env.PUBLIC_URL + '/3.jpg'} alt="Slide 2" width="370px" height="370px" className="rounded-5 border border-3 border-dark"/>
                     </SplideSlide>
-                </Splide>
+                </Splide> */}
             </div>
         </div>
      );
