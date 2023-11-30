@@ -1,29 +1,16 @@
 {
-  "Review": [
+  "Journal": [
     {
       "id": 1,
-      "name": "Vincentt",
-      "review": "this is a review"
+      "title": "Vincentt",
+      "date": "this is a review",
+      "description": "description"
     },
     {
       "id": 2,
       "name": "J",
-      "review": "this is a review"
-    },
-    {
-      "name": "",
-      "review": "",
-      "id": 3
-    },
-    {
-      "name": "Review",
-      "review": "Reviewer.exe",
-      "id": 4
-    },
-    {
-      "name": "Vincent James",
-      "review": "This is a review by a professional",
-      "id": 5
+      "review": "this is a review",
+      "description": "description"
     }
   ]
 }
